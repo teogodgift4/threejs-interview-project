@@ -1,0 +1,100 @@
+{
+	"models": [
+		{
+			"name": "Torus Knot",
+			"type": "torusknot",
+			"materialId": "mat1",
+			"position": { "x": 0, "y": -250, "z": 0 }
+		},
+		{
+			"name": "Sphere",
+			"type": "sphere",
+			"materialId": "mat2",
+			"position": { "x": 0, "y": 250, "z": 0 }
+		},
+		{
+			"name": "Box",
+			"type": "box",
+			"materialId": "mat2",
+			"position": { "x": 0, "y": 0, "z": 0 }
+		}
+
+	],
+
+	"materials": [
+		{
+			"materialId": "mat1",
+			"type": "standard",
+			"color": "#ffffff",
+			"map": "/textures/disturb.jpg"
+		},
+		{
+			"materialId": "mat2",
+			"type": "physical",
+			"color": "#00ff00"
+		}
+	],
+
+	"materialConfigurator": [
+		{
+			"materials": [
+				{
+					"materialId": "mat1",
+					"color": "#ffffff",
+					"map": "/textures/disturb.jpg"
+				},
+				{
+					"materialId": "mat2",
+					"color": "#00ff00"
+				}
+
+			],
+			"buttonColor": "#00ff00"
+		},
+		{
+			"materials": [
+				{
+					"materialId": "mat1",
+					"color": "#ffffff",
+					"map": "/textures/brick.jpg"
+				},
+				{
+					"materialId": "mat2",
+					"color": "#0000ff"
+				}
+
+			],
+			"buttonColor": "#0000ff"
+		},
+		{
+			"materials": [
+				{
+					"materialId": "mat1",
+					"color": "#ffffff",
+					"map": "/textures/crate.jpg"
+				},
+				{
+					"materialId": "mat2",
+					"color": "#ff0000"
+				}
+
+			],
+			"buttonColor": "#ff0000"
+		},
+		{
+			"materials": [
+				{
+					"materialId": "mat1",
+					"color": "#ffffff",
+					"map": "/textures/grass.jpg"
+				},
+				{
+					"materialId": "mat2",
+					"color": "#00ffff"
+				}
+
+			],
+			"buttonColor": "#00ffff"
+		}
+	]
+}
